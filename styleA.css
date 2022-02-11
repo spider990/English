@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+
+.container {
+    background-image: url(/PC.jpg);
+    background-size: cover;
+    height: 1100px;
+}
+.txt {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 20px;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.644);
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0;
+    background-color: white;
+    max-width: 300px;
+    margin: 50px;
+    text-align: center;
+    float: left;
+}
+.price {
+    color: grey;
+    font-size: 22px;
+}
+.card1 button {
+    border: none;
+    outline: none;
+    padding: 12px;
+    background-color: rgb(91, 61, 199);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.p {
+    font-weight: 800;
+}
+.card1 button:hover {
+    background-color: rgb(146, 119, 189);
+}
+.footer{
+    border: 1px solid red;
+}
+.contact {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.contact a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 37, 37);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.contact a:hover {
+    background-color: rgb(184, 182, 182);
+    color: black;
+}
