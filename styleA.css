@@ -4,7 +4,7 @@
 
 .container {
     background-image:url("PC.jpg");
-    height: 2000px;
+    height: 3000px;
  
     justify-content: space-between;
     flex-basis: 100%;
