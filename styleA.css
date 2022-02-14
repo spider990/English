@@ -12,12 +12,11 @@
 }
 .container2 {
     background-color: rgb(243, 243, 243);
-    height: 2000px;
+    height: 4000px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-basis: 100%;
-    width: 100%
 }
 .txt {
     color: rgb(255, 255, 255);
