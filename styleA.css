@@ -3,12 +3,12 @@
 }
 
 .container {
-    background-image: url("PC.jpg");
+    background-image: url(/PC.jpg);
     background-size: cover;
-    height: 1100px;
+    height: 4000px;
 }
 .txt {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 60px;
     font-weight: 800;
     border: 1px solid white;
@@ -17,6 +17,26 @@
     height: 100px;
     background-color: rgba(255, 0, 0, 0.644);
 }
+.tt {
+    color: rgb(235, 235, 235);
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
+.ttt {
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.438);
+    position: relative;
+    bottom: 2000px;
+}
+
+
 
 .card1 {
     box-shadow: 0 4px 8px 0;
@@ -42,6 +62,8 @@
 }
 .p {
     font-weight: 800;
+    font-size: 20px;
+    font-family: monospace;
 }
 .card1 button:hover {
     background-color: rgb(146, 119, 189);
