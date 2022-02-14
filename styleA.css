@@ -5,8 +5,7 @@
 .container {
     background-color: rgb(37, 37, 37);
     height: 2000px;
-    display: flex;
-    flex-wrap: wrap;
+ 
     justify-content: space-between;
     flex-basis: 100%;
 }
