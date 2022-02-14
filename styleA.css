@@ -5,7 +5,12 @@
 .container {
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b8bf92d1-62a7-46c0-8164-6fcc6c8445ab/d2i92ic-ce03a7e7-7fd8-42e7-9940-324a3fd7f52f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I4YmY5MmQxLTYyYTctNDZjMC04MTY0LTZmY2M2Yzg0NDVhYlwvZDJpOTJpYy1jZTAzYTdlNy03ZmQ4LTQyZTctOTk0MC0zMjRhM2ZkN2Y1MmYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.uOa9cl4t9C4Lt0PhNcj4jx-GSe5sz9bpZzOV3OrIDKA);
     background-size: cover;
-    height: auto;
+    height: 2000px;
+}
+.container2 {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/020e1179-46f8-43ff-9c44-4280cde630ec/ddc3wli-8d87be23-6195-4b82-9882-12c019073d09.jpg/v1/fill/w_1131,h_707,q_70,strp/windows_7_dark_wallpaper_hd_4k_by_sahibdm_ddc3wli-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAwIiwicGF0aCI6IlwvZlwvMDIwZTExNzktNDZmOC00M2ZmLTljNDQtNDI4MGNkZTYzMGVjXC9kZGMzd2xpLThkODdiZTIzLTYxOTUtNGI4Mi05ODgyLTEyYzAxOTA3M2QwOS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.J-9bc1n5Q2gwqCaXyLLrzS_7X4zPq42SfO-a9szQdAs);
+    background-size: cover;
+    height: 2000px;
 }
 .txt {
     color: rgb(255, 255, 255);
@@ -15,7 +20,7 @@
     text-align: center;
     padding-top: 20px;
     height: 100px;
-    background-color: rgba(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.644);
 }
 .tt {
     color: rgb(235, 235, 235);
@@ -25,17 +30,14 @@
     border: 1px solid white;
     background-color: rgba(255, 255, 255, 0.445);
 }
-#ss {
-    background-color: red;
-}
+
 .ttt {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 45px;
     font-weight: 700;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.438);
-    position: relative;
-    bottom: 2000px;
+
 }
 
 
@@ -46,10 +48,34 @@
     max-width: 300px;
     margin: 50px;
     text-align: center;
-    float: left;
+    float: right;
+    justify-content: space-evenly;
 }
+.card2 {
+    box-shadow: 0 4px 8px 0;
+    background-color: rgb(50, 103, 248);
+    max-width: 300px;
+    margin: 50px;
+    text-align: center;
+    float: right;
+    justify-content: space-evenly;
+}
+.card2 button {
+    border: none;
+    outline: none;
+    padding: 12px;
+    background-color: rgb(91, 61, 199);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.s {
+    color: rgb(255, 255, 255);
+}
+
 .price {
-    color: grey;
+    color: rgb(48, 44, 44);
     font-size: 22px;
 }
 .card1 button {
@@ -62,11 +88,18 @@
     width: 100%;
     font-size: 18px;
 }
+#Btn {
+    background-color: rgb(60, 255, 70);
+}
+#Btn:hover {
+    background-color: rgb(129, 221, 144);
+}
 .p {
     font-weight: 800;
     font-size: 20px;
     font-family: monospace;
 }
+
 .card1 button:hover {
     background-color: rgb(146, 119, 189);
 }
@@ -88,10 +121,16 @@
     color: rgb(255, 255, 255);
     background-color: rgb(37, 37, 37);
     text-decoration: none;
-    font-size: 17px;
+    font-size: 10px;
 }
 
 .contact a:hover {
     background-color: rgb(184, 182, 182);
     color: black;
+}
+#Disk {
+    background-color: rgb(60, 185, 70);
+}
+#Wh {
+    background-color: red;
 }
