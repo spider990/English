@@ -43,15 +43,16 @@
 }
 @keyframes spdyy {
     0% {background-color: white;}
-    25% {background-color: rgb(255, 157, 157);}
-    50% {background-color: rgb(97, 97, 182); font-weight: 900; font-size: 30px;}
-    70% {background-color: cornflowerblue; font-weight: 700;}
-    100% {background-color: cornsilk; font-weight: 500;}
+    25% {background-image:  rgb(255, 158, 11);}
+    50% {background-color: rgb(224, 187, 64); font-weight: 900; font-size: 30px;}
+    70% {background-color:yellow; font-weight: 700;}
+    100% {background-color: rgb(233, 229, 216); font-weight: 500;}
 }
 #notes {
     color: white;
-    font-size: 40px;
+    font-size: 45px;
 }
+
 
 
 
