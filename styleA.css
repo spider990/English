@@ -32,8 +32,8 @@
 
 #nte {
     border-radius: 5px;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     border: none;
     outline: none;
     animation-name: spdyy;
@@ -50,7 +50,7 @@
 }
 #notes {
     color: white;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 
