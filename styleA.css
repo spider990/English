@@ -32,8 +32,8 @@
 
 #nte {
     border-radius: 5px;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 80px;
     border: none;
     outline: none;
     animation-name: spdyy;
@@ -44,7 +44,7 @@
 @keyframes spdyy {
     0% {background-color: white;}
     25% {background-color: rgb(255, 157, 157);}
-    50% {background-color: rgb(97, 97, 182); font-weight: 900; font-size: 20px;}
+    50% {background-color: rgb(97, 97, 182); font-weight: 900; font-size: 30px;}
     70% {background-color: cornflowerblue; font-weight: 700;}
     100% {background-color: cornsilk; font-weight: 500;}
 }
