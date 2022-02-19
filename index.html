@@ -9,6 +9,7 @@
 <div class="container">  
   <div class="Header">
       <p class="txt">TechnoWall</p>
+       <p id="notes"><button id="nte" onclick="typeWriter()">Note</button></p>
   </div>
 <div class="category">
   <h1 class="tt">Softwares</h1>
@@ -384,6 +385,23 @@
 
 
   </div>
-<script>(function(w, d) { w.CollectId = "620f7ff5615a07609d71c9df"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+<script>
+  (function(w, d) { w.CollectId = "620f7ff5615a07609d71c9df"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);
+  
+  
+  var i = 0;
+  var txt = "شد البنطلون أند ريممبر يو ار نط الون"
+  var speed = 50;
+ function typeWriter() {
+   if (i < txt.length) {
+     document.getElementById("notes").innerHTML += txt.charAt(i);
+     i++;
+     setTimeout(typeWriter, speed);
+   }
+ } 
+  
+  
+  
+  </script>
 </body>    
 </html>
