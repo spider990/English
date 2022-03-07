@@ -11,7 +11,7 @@
 }
 .container2 {
     background-color: rgb(243, 243, 243);
-    height: 1000px;
+    height: 2000px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -39,20 +39,18 @@
     100%{background-color: black;}
 }
 
-#nte {
+.GG {
     border-radius: 5px;
     height: 70px;
     width: 80px;
     border: none;
     outline: none;
-    animation-name: spdyy;
-    animation-iteration-count: infinite;
-    animation-duration: 7s;
-    animation-timing-function: ease-in-out;
+
 }
 
+
 #notes {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 45px;
 }
 
@@ -212,6 +210,11 @@
 #Wh {
     background-color: red;
 }
+.SS {
+    height: 30px;
+    width: 50px;
+}
+
 .box {
     width: 1900px;
 }
