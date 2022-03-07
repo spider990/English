@@ -21,6 +21,7 @@
     color: rgb(255, 255, 255);
     font-size: 60px;
     font-weight: 800;
+    color: rgb(255, 255, 255);
     border: 1px solid white;
     text-align: center;
     padding-top: 20px;
@@ -28,6 +29,14 @@
     animation-name: spdy;
     animation-duration: 8s;
     animation-iteration-count: infinite;
+}
+@keyframes spdy {
+    0%{background-color: red;}
+    15%{background-color: orange;}
+    30%{background-color: yellow;}
+    50%{background-color: #2e3bad;}
+    80%{background-color: rgb(17, 17, 43);}
+    100%{background-color: black;}
 }
 
 #nte {
@@ -41,13 +50,7 @@
     animation-duration: 7s;
     animation-timing-function: ease-in-out;
 }
-@keyframes spdyy {
-    0% {background-color: white;}
-    25% {background-image:  rgb(255, 158, 11);}
-    50% {background-color: rgb(224, 187, 64); font-weight: 900; font-size: 30px;}
-    70% {background-color:yellow; font-weight: 700;}
-    100% {background-color: rgb(233, 229, 216); font-weight: 500;}
-}
+
 #notes {
     color: white;
     font-size: 45px;
@@ -57,13 +60,7 @@
 
 
 
-@keyframes spdy {
-    0% {background-color: rgb(0, 0, 0);}
-    25% {background-color: lightcoral;}
-    50% {background-color: rgb(160, 62, 62);}
-    75% {background-color: red;}
-    100% {background-color: orangered;}
-}
+
 .tt {
     color: rgb(39, 39, 39);
     font-size: 45px;
@@ -215,3 +212,26 @@
 #Wh {
     background-color: red;
 }
+.box {
+    width: 1900px;
+}
+
+.block {
+ display: inline-block;
+ width: 30px;
+ height: 30px;
+ background-color: #be3636;
+ animation: spd;
+ animation-iteration-count: infinite;
+ animation-duration: 8s;
+}
+@keyframes spd {
+    0%{background-color: red;}
+    15%{background-color: orange;}
+    30%{background-color: yellow;}
+    50%{background-color: #2e3bad;}
+    80%{background-color: rgb(17, 17, 43);}
+    100%{background-color: black;}
+}
+
+
