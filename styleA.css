@@ -31,7 +31,7 @@
     animation-iteration-count: infinite;
 }
 @keyframes spdy {
-    0%{background-color: red;}
+    0%{background-color: crimson;}
     15%{background-color: orange;}
     30%{background-color: yellow;}
     50%{background-color: #2e3bad;}
@@ -232,7 +232,7 @@ Width: 80px;}
  animation-duration: 8s;
 }
 @keyframes spd {
-    0%{background-color: red;}
+    0%{background-color: crimson ;}
     15%{background-color: orange;}
     30%{background-color: yellow;}
     50%{background-color: #2e3bad;}
