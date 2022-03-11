@@ -219,25 +219,18 @@ Width: 80px;}
 }
 
 .box {
-    width: 1400px;
+    z-index: -999;
+    position: fixed;
+    width: 1800px;
 }
 
 .block {
- display: inline-block;
+    display: inline-block;
  width: 30px;
  height: 30px;
- background-color: #be3636;
- animation: spd;
- animation-iteration-count: infinite;
- animation-duration: 8s;
-}
-@keyframes spd {
-    0%{background-color: crimson ;}
-    15%{background-color: orange;}
-    30%{background-color: yellow;}
-    50%{background-color: #2e3bad;}
-    80%{background-color: rgb(17, 17, 43);}
-    100%{background-color: gray;}
+ margin: 6px;
+ border-radius: 6px;
+ background-color: #5449f7;
 }
 
 
