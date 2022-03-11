@@ -218,7 +218,9 @@
 .box {
     z-index: -999;
     position: fixed;
-    width: 1800px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
 }
 
 .block {
