@@ -3,14 +3,14 @@
 }
 
 .container {
-    background-image:url("PC.jpg");
+    background-color: transparent;
     height: 3000px;
  
     justify-content: space-between;
     flex-basis: 100%;
 }
 .container2 {
-    background-color: rgb(243, 243, 243);
+    background-color: transparent;
     height: 2000px;
     display: flex;
     flex-wrap: wrap;
@@ -31,12 +31,12 @@
     animation-iteration-count: infinite;
 }
 @keyframes spdy {
-    0%{background-color: crimson;}
+    0%{background-color: red;}
     15%{background-color: orange;}
     30%{background-color: yellow;}
     50%{background-color: #2e3bad;}
     80%{background-color: rgb(17, 17, 43);}
-    100%{background-color: gray;}
+    100%{background-color: black;}
 }
 
 .GG {
@@ -50,12 +50,9 @@
 
 
 #notes {
-    color: rgb(0, 0, 0);
+    color: rgb(243, 174, 174);
     font-size: 45px;
 }
-#nte { 
-Height :50px;
-Width: 80px;}
 
 
 
@@ -232,5 +229,3 @@ Width: 80px;}
  border-radius: 6px;
  background-color: #5449f7;
 }
-
-
