@@ -33,9 +33,9 @@ anime({
     targets: '.box .block',
     trnsalteY: 270,
     scale:[
-        {value: .1, easing:'easeOutSine', duration: 800},
-        {value: 1, easing: 'easeInOutQuad', duration: 800},
+        {value: .1, easing:'easeOutSine', duration: 1200},
+        {value: 1, easing: 'easeInOutQuad', duration: 1200},
     ],
-    delay: anime.stagger(200, {grid: [10, 4], from:'center'}),
+    delay: anime.stagger(200, {grid: [40, 6], from:'center'}),
     loop: true
 });
